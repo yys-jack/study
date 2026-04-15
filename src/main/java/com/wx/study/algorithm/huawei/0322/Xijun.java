@@ -1,3 +1,4 @@
+package com.wx.study.algorithm.huawei.0322;
 package train;
 
 import java.util.LinkedList;

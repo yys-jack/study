@@ -1,3 +1,4 @@
+package com.wx.study.algorithm.huawei.0319;
 import java.util.Scanner;
 
 public class Solution_0322_1 {

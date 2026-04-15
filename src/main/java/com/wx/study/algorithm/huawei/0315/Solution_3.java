@@ -1,3 +1,4 @@
+package com.wx.study.algorithm.huawei.0315;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
