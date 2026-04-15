@@ -1,9 +1,9 @@
 rootProject.name = 'study'
 include 'common'
 include 'demo'
-include 'flink'
-include 'canal'
-include 'kafka'
+include 'realtime:kafka'
+include 'realtime:canal'
+include 'realtime:flink'
 
 
 
