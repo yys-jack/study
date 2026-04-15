@@ -1,7 +1,7 @@
 package com.wx.study.introduction4.chapter1_3.graph;
 
 
-import com.wx.study.algorithm.introduction4.chapter1_3.bag.Bag;
+import com.wx.study.introduction4.chapter1_3.bag.Bag;
 
 /**
  * @author wxli

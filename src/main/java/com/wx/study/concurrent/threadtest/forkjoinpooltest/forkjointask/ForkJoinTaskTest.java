@@ -1,8 +1,8 @@
 package com.wx.study.threadtest.forkjoinpooltest.forkjointask;
 
-import lombok.SneakyThrows;
 import org.junit.Test;
 
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 
 /**
@@ -13,9 +13,8 @@ import java.util.concurrent.ForkJoinPool;
  * @date 2021/7/27 14:22
  */
 public class ForkJoinTaskTest {
-    @SneakyThrows
     @Test
-    public void test() {
+    public void test() throws InterruptedException, ExecutionException {
         ForkJoinPool forkJoinPool = new ForkJoinPool();
 
         FactorialSquareCalculator calculator = new FactorialSquareCalculator(10);
@@ -23,6 +22,7 @@ public class ForkJoinTaskTest {
         forkJoinPool.execute(calculator);
         while (!calculator.isDone()) {
             System.out.println("calculating task");
+            Thread.sleep(100);
         }
         System.out.println(calculator.get());
 

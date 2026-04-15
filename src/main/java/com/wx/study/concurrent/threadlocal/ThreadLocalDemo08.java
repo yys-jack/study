@@ -1,8 +1,7 @@
 package com.wx.study.threadlocal;
 
 
-import jlibs.core.lang.RuntimeUtil;
-
+import java.lang.management.ManagementFactory;
 import java.lang.ref.Reference;
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
@@ -25,7 +24,7 @@ public class ThreadLocalDemo08 {
             System.out.println(Thread.currentThread().getName() + holder.get());
         });
         thread.start();
-        RuntimeUtil.gc();
+        System.gc();
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {

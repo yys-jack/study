@@ -1,61 +1,31 @@
-package com.wx;
+package com.wx.study.jvm;
 
-import java.lang.reflect.Field;
+import java.lang.management.ManagementFactory;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.util.ArrayList;
 
 public class JvmClassLoaderPrintPath {
 
     public static void main(String[] args) {
+        // Java 21+ 使用 ManagementFactory 获取类加载器信息
+        System.out.println("Java 21+ 类加载器信息:");
 
-        // 启动类加载器
-        URL[] urls = sun.misc.Launcher.getBootstrapClassPath().getURLs();
-        System.out.println("启动类加载器");
-        for(URL url : urls) {
-            System.out.println(" ==> " +url.toExternalForm());
-        }
+        // 获取当前类加载器层级
+        ClassLoader current = JvmClassLoaderPrintPath.class.getClassLoader();
+        System.out.println("应用类加载器：" + current.getClass().getName());
 
-        // 扩展类加载器
-        printClassLoader("扩展类加载器", JvmClassLoaderPrintPath.class.getClassLoader().getParent());
+        ClassLoader ext = current.getParent();
+        System.out.println("平台类加载器：" + (ext != null ? ext.getClass().getName() : "null"));
 
-        // 应用类加载器
-        printClassLoader("应用类加载器", JvmClassLoaderPrintPath.class.getClassLoader());
+        ClassLoader bootstrap = ext != null ? ext.getParent() : null;
+        System.out.println("启动类加载器：" + (bootstrap != null ? bootstrap.getClass().getName() : "null (bootstrap)"));
 
-    }
-
-    public static void printClassLoader(String name, ClassLoader CL){
-        if(CL != null) {
-            System.out.println(name + " ClassLoader -> " + CL.toString());
-            printURLForClassLoader(CL);
-        }else{
-            System.out.println(name + " ClassLoader -> null");
-        }
-    }
-
-    public static void printURLForClassLoader(ClassLoader CL){
-
-        Object ucp = insightField(CL,"ucp");
-        Object path = insightField(ucp,"path");
-        ArrayList ps = (ArrayList) path;
-        for (Object p : ps){
-            System.out.println(" ==> " + p.toString());
-        }
-    }
-
-    private static Object insightField(Object obj, String fName) {
-        try {
-            Field f = null;
-            if(obj instanceof URLClassLoader){
-                f = URLClassLoader.class.getDeclaredField(fName);
-            }else{
-                f = obj.getClass().getDeclaredField(fName);
+        // 打印类加载器路径
+        if (current instanceof URLClassLoader) {
+            URL[] urls = ((URLClassLoader) current).getURLs();
+            for (URL url : urls) {
+                System.out.println("  -> " + url.toExternalForm());
             }
-            f.setAccessible(true);
-            return f.get(obj);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
         }
     }
 }

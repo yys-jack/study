@@ -1,4 +1,4 @@
-package com.wx.study.behavioralmode.Iterator;
+package com.wx.study.patterns.behavioral.Iterator;
 
 import java.util.ArrayList;
 
