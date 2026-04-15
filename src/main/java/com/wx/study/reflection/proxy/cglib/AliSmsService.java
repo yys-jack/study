@@ -1,7 +1,6 @@
-package com.wx.proxy;
+package com.wx.study.proxy.cglib;
 
-public class SmsServiceImpl implements SmsService {
-    @Override
+public class AliSmsService {
     public String send(String message) {
         System.out.println("send message:" + message);
         return message;

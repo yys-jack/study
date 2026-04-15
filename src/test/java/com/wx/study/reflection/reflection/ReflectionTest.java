@@ -1,4 +1,4 @@
-package com.wx.reflection;
+package com.wx.study.reflection;
 
 import org.junit.jupiter.api.Test;
 

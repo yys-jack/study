@@ -1,4 +1,4 @@
-package com.wx.proxy.jdk;
+package com.wx.study.proxy.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -1,7 +1,7 @@
-package com.wx.proxy.jdk;
+package com.wx.study.proxy.jdk;
 
-import com.wx.proxy.SmsService;
-import com.wx.proxy.SmsServiceImpl;
+import com.wx.study.proxy.SmsService;
+import com.wx.study.proxy.SmsServiceImpl;
 
 import java.lang.reflect.Proxy;
 
