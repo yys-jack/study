@@ -1,6 +1,0 @@
-dependencies {
-    compileOnly 'org.projectlombok:lombok'
-    testImplementation 'org.junit.jupiter:junit-jupiter'
-    implementation 'junit:junit'
-
-}

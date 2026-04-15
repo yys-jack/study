@@ -1,8 +1,0 @@
-dependencies {
-    compileOnly 'org.projectlombok:lombok'
-    implementation 'cglib:cglib:3.3.0'
-
-    testImplementation 'junit:junit'
-    testImplementation 'org.junit.jupiter:junit-jupiter'
-
-}

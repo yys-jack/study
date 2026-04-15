@@ -3,44 +3,36 @@ allprojects {
     version = '1.0.0'
 }
 
-subprojects {
-    apply plugin: 'java'
-    apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'idea'
 
-    // --- 修改点：设置兼容性为 Java 21 ---
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
+sourceCompatibility = JavaVersion.VERSION_21
+targetCompatibility = JavaVersion.VERSION_21
 
-    dependencies {
-        // 对于 Java 21，强烈建议使用 Logback 1.5.x 系列（支持新的 Jakarta 命名空间和更好的兼容性）
-        implementation 'ch.qos.logback:logback-classic:1.5.6'
+dependencies {
+    implementation 'ch.qos.logback:logback-classic:1.5.6'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testImplementation 'org.assertj:assertj-core:3.26.0'
 
-        testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
-        testImplementation 'org.assertj:assertj-core:3.26.0'
-    }
+    compileOnly 'org.projectlombok:lombok'
+    implementation 'cglib:cglib:3.3.0'
+    implementation 'org.apache.kafka:kafka-clients:3.8.0'
+}
 
-    repositories {
-        mavenLocal()
-        mavenCentral()
-        gradlePluginPortal()
-    }
+repositories {
+    mavenLocal()
+    mavenCentral()
+    gradlePluginPortal()
+}
 
-    tasks.withType(JavaCompile) {
-        options.encoding = 'UTF-8'
-        // 显式指定编译器释放版本为 21
-        options.release = 21
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
 
-        // 可选：如果你想尝试 Java 21 的预览特性（如 String Templates），可以取消下面两行注释
-        // options.compilerArgs += ['--enable-preview']
-    }
-
-    test {
-        useJUnitPlatform()
-        // 如果上面开启了预览特性，测试也需要开启
-        // jvmArgs += ['--enable-preview']
-
-        testLogging {
-            events "passed", "skipped", "failed"
-        }
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
     }
 }
