@@ -1,4 +1,4 @@
-package com.wx.file;
+package com.wx.study.file;
 
 import java.io.File;
 import java.nio.file.Files;

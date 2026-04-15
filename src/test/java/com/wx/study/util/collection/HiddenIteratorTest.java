@@ -1,4 +1,4 @@
-package com.wx.collection;
+package com.wx.study.collection;
 
 import org.junit.jupiter.api.Test;
 

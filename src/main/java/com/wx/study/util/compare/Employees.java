@@ -1,4 +1,4 @@
-package com.wx.compare;
+package com.wx.study.compare;
 
 import java.util.ArrayList;
 import java.util.List;

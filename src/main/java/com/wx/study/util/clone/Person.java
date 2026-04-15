@@ -1,4 +1,4 @@
-package com.wx.clone;
+package com.wx.study.clone;
 
 public class Person implements Cloneable {
     private Address address;

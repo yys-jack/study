@@ -1,4 +1,4 @@
-package com.wx.file;
+package com.wx.study.file;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
