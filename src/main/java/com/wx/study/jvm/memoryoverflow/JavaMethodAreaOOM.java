@@ -1,4 +1,4 @@
-package com.wx.memoryoverflow;
+package com.wx.study.memoryoverflow;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

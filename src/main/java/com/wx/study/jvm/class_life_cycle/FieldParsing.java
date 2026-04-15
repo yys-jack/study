@@ -1,4 +1,4 @@
-package com.wx.class_life_cycle;
+package com.wx.study.class_life_cycle;
 
 /**
  * 字段解析

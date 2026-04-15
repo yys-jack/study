@@ -1,4 +1,4 @@
-package com.wx.gc;
+package com.wx.study.gc;
 
 /**
  * 1.对象可以在被GC时自我拯救

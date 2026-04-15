@@ -1,4 +1,4 @@
-package com.wx.reference;
+package com.wx.study.reference;
 
 public class ReferenceTypeAccessTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.wx.object;
+package com.wx.study.object;
 
 import org.openjdk.jol.info.ClassLayout;
 

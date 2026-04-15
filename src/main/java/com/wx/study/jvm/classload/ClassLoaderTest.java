@@ -1,4 +1,4 @@
-package com.wx.classload;
+package com.wx.study.classload;
 
 import java.io.IOException;
 import java.io.InputStream;

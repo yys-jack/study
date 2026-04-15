@@ -1,4 +1,4 @@
-package com.wx.reference;
+package com.wx.study.reference;
 
 /**
  *

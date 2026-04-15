@@ -1,4 +1,4 @@
-package com.wx.gc;
+package com.wx.study.gc;
 
 /**
  * 引用算法

@@ -1,4 +1,4 @@
-package com.wx.memoryoverflow;
+package com.wx.study.memoryoverflow;
 
 
 public class JavaVMStackSOF {

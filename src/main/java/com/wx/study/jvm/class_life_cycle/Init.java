@@ -1,4 +1,4 @@
-package com.wx.class_life_cycle;
+package com.wx.study.class_life_cycle;
 
 /**
  * <clinit>执行顺序

@@ -1,4 +1,4 @@
-package com.wx.class_life_cycle;
+package com.wx.study.class_life_cycle;
 
 /**
  * 类初始化阶段是类加载过程的最后一个步骤
