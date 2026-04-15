@@ -1,7 +1,7 @@
-package com.wx.priority.evaluator.impl;
+package com.wx.study.framework.evaluator.impl;
 
-import com.wx.priority.evaluator.AbstractService;
-import com.wx.priority.task.Task;
+import com.wx.study.framework.evaluator.AbstractService;
+import com.wx.study.framework.task.Task;
 
 public class PriorityServiceImpl extends AbstractService implements Comparable<PriorityServiceImpl> {
     public PriorityServiceImpl(Task task) {

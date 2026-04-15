@@ -1,4 +1,4 @@
-package com.wx.priority.evaluator;
+package com.wx.study.framework.evaluator;
 
 import java.util.Calendar;
 import java.util.Queue;

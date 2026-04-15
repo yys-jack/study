@@ -1,4 +1,4 @@
-package com.wx.priority.message;
+package com.wx.study.framework.message;
 
 import java.util.Map;
 
