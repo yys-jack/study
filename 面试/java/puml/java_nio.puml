@@ -1,6 +1,0 @@
-@startmindmap
-* nio
-**_ channel
-**_ byte_buffer
-**_ selector
-@endmindmap
