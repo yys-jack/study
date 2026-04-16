@@ -5,11 +5,11 @@ echo "=== Realtime Docker Deployment Verification ==="
 
 # 1. 检查 Docker Compose 文件
 echo -e "\n[1/6] Checking docker-compose.yml..."
-docker-compose config --quiet && echo "OK: docker-compose.yml is valid"
+docker compose config --quiet && echo "OK: docker-compose.yml is valid"
 
 # 2. 启动服务
 echo -e "\n[2/6] Starting services..."
-docker-compose up -d
+docker compose up -d
 
 # 等待服务启动
 echo "Waiting 30 seconds for services to start..."
@@ -17,7 +17,7 @@ sleep 30
 
 # 3. 检查容器状态
 echo -e "\n[3/6] Checking container status..."
-docker-compose ps
+docker compose ps
 
 # 4. 验证 MySQL
 echo -e "\n[4/6] Verifying MySQL..."

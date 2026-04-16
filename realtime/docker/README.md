@@ -24,14 +24,14 @@ MySQL (binlog) → Canal → Kafka → Flink → 输出
 
 ```bash
 cd realtime
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 2. 验证服务状态
 
 ```bash
 # 查看容器状态
-docker-compose ps
+docker compose ps
 
 # 查看 Canal 日志
 docker logs realtime-canal -f
@@ -108,10 +108,10 @@ docker exec realtime-flink-jobmanager flink run /opt/flink/usrlib/realtime-1.0.0
 
 ```bash
 # 停止所有服务
-docker-compose down
+docker compose down
 
 # 停止并删除数据卷（谨慎使用）
-docker-compose down -v
+docker compose down -v
 ```
 
 ## 故障排查
