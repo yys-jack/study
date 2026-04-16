@@ -19,11 +19,6 @@ dependencies {
     implementation 'cglib:cglib:3.3.0'
     implementation 'org.openjdk.jol:jol-core:0.17'
     implementation 'org.apache.commons:commons-lang3:3.14.0'
-    implementation 'org.apache.kafka:kafka-clients:3.8.0'
-    implementation 'org.apache.flink:flink-streaming-java_2.11:1.13.2'
-    implementation 'org.apache.flink:flink-clients_2.11:1.13.2'
-    implementation 'org.apache.flink:flink-runtime-web_2.11:1.13.2'
-    implementation 'com.alibaba.otter:canal.client:1.1.0'
 }
 
 repositories {
