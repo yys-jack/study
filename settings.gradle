@@ -1,8 +1,5 @@
 rootProject.name = 'study'
 
-// 已有模块
-include ':realtime'
-
 // 新增模块
 include ':modules:core'
 include ':modules:concurrent'
