@@ -1,4 +1,4 @@
-package com.wx.study.unsafe;
+package com.wx.study.concurrent.unsafe;
 
 /**
  * 死锁

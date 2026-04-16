@@ -1,4 +1,4 @@
-package com.wx.study.producerconsumermodel;
+package com.wx.study.concurrent.producerconsumermodel;
 
 public class WaitStyle {
 

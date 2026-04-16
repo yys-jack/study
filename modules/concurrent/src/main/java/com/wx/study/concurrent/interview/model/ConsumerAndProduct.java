@@ -1,4 +1,4 @@
-package com.wx.study.interview.model;
+package com.wx.study.concurrent.interview.model;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;

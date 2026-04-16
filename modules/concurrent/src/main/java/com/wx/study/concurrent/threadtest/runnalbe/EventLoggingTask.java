@@ -1,4 +1,4 @@
-package com.wx.study.threadtest.runnalbe;
+package com.wx.study.concurrent.threadtest.runnalbe;
 
 
 /**

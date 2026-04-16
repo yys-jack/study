@@ -1,4 +1,4 @@
-package com.wx.study.threadtest.forkjoinpooltest;
+package com.wx.study.concurrent.threadtest.forkjoinpooltest;
 
 
 import java.util.ArrayList;

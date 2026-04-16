@@ -1,4 +1,4 @@
-package com.wx.study.threadtest.callable;
+package com.wx.study.concurrent.threadtest.callable;
 
 import java.util.concurrent.Callable;
 

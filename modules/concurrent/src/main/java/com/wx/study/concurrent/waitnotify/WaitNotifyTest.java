@@ -1,4 +1,4 @@
-package com.wx.study.waitnotify;
+package com.wx.study.concurrent.waitnotify;
 
 import org.junit.Test;
 

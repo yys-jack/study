@@ -1,4 +1,4 @@
-package com.wx.study.aqs.semaphore;
+package com.wx.study.concurrent.aqs.semaphore;
 
 import java.util.concurrent.Semaphore;
 

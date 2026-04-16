@@ -1,4 +1,4 @@
-package com.wx.study.aqs.cyclicbarrier;
+package com.wx.study.concurrent.aqs.cyclicbarrier;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

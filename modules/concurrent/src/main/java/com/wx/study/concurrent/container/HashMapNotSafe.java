@@ -1,4 +1,4 @@
-package com.wx.study.container;
+package com.wx.study.concurrent.container;
 
 import java.util.HashMap;
 import java.util.Map;

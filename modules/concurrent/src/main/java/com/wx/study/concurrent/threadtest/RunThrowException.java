@@ -1,4 +1,4 @@
-package com.wx.study.threadtest;
+package com.wx.study.concurrent.threadtest;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.wx.study.waitnotify;
+package com.wx.study.concurrent.waitnotify;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,4 +1,4 @@
-package com.wx.study.unsafe;
+package com.wx.study.concurrent.unsafe;
 
 /**
  * 《Java Concurrency In Practice》的作者 Brian Go线程安全是这样理解的，当多个线程访问一个对象时

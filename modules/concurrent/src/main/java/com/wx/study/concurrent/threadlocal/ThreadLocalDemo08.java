@@ -1,4 +1,4 @@
-package com.wx.study.threadlocal;
+package com.wx.study.concurrent.threadlocal;
 
 
 import java.lang.management.ManagementFactory;

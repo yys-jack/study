@@ -1,4 +1,4 @@
-package com.wx.study.lock;
+package com.wx.study.concurrent.lock;
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 

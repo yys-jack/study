@@ -1,4 +1,4 @@
-package com.wx.study.threadtest.completablefuture;
+package com.wx.study.concurrent.threadtest.completablefuture;
 
 import org.junit.Test;
 

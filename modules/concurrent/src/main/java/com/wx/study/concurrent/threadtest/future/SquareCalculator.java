@@ -1,4 +1,4 @@
-package com.wx.study.threadtest.future;
+package com.wx.study.concurrent.threadtest.future;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

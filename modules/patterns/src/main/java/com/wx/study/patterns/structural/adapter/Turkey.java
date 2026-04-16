@@ -1,4 +1,4 @@
-package com.wx.study.adapter;
+package com.wx.study.patterns.structural.adapter;
 
 /**
  * 火鸡,具备飞行能力和咯咯叫

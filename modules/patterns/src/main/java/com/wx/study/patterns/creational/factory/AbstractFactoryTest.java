@@ -1,4 +1,4 @@
-package com.wx.study.creationmode.factory;
+package com.wx.study.patterns.creational.factory;
 
 /**
  * @author wxli

@@ -1,4 +1,4 @@
-package com.wx.study.adapter;
+package com.wx.study.patterns.structural.adapter;
 
 /**
  * @author wxli

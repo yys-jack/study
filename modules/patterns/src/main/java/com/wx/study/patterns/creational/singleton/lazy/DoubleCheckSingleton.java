@@ -1,4 +1,4 @@
-package com.wx.study.creationmode.singleton.lazy;
+package com.wx.study.patterns.creational.singleton.lazy;
 
 /**
  * @author wxli

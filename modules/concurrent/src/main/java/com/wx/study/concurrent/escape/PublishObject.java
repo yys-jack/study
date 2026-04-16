@@ -1,4 +1,4 @@
-package com.wx.study.escape;
+package com.wx.study.concurrent.escape;
 
 import java.util.HashSet;
 import java.util.Set;

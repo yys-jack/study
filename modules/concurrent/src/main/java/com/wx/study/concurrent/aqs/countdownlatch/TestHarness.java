@@ -1,4 +1,4 @@
-package com.wx.study.aqs.countdownlatch;
+package com.wx.study.concurrent.aqs.countdownlatch;
 
 import java.util.concurrent.CountDownLatch;
 

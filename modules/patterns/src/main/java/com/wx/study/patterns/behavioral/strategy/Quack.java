@@ -1,4 +1,4 @@
-package com.wx.study.strategy;
+package com.wx.study.patterns.behavioral.strategy;
 
 public class Quack implements QuackBehavior {
 	public void quack() {

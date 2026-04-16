@@ -1,4 +1,4 @@
-package com.wx.study.adapter;
+package com.wx.study.patterns.structural.adapter;
 
 /**
  * 鸭子接口，具备呱呱叫和飞行能力

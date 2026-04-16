@@ -1,4 +1,4 @@
-package com.wx.study.creationmode.singleton.hungry;
+package com.wx.study.patterns.creational.singleton.hungry;
 
 /**
  * @author wxli

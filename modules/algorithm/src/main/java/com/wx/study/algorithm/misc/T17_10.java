@@ -1,4 +1,4 @@
-package com.wx;
+package com.wx.study.algorithm.misc;
 
 import java.util.*;
 import java.util.stream.Collectors;

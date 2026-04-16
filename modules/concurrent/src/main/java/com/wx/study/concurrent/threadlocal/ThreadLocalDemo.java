@@ -1,4 +1,4 @@
-package com.wx.study.threadlocal;
+package com.wx.study.concurrent.threadlocal;
 
 public class ThreadLocalDemo {
     public static void main(String[] args) {

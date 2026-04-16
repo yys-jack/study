@@ -1,4 +1,4 @@
-package com.wx.study.threadtest.forkjoinpooltest.forkjointask;
+package com.wx.study.concurrent.threadtest.forkjoinpooltest.forkjointask;
 
 import org.junit.Test;
 

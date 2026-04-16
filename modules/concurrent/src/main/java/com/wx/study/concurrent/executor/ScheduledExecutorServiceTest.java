@@ -1,4 +1,4 @@
-package com.wx.study.executor;
+package com.wx.study.concurrent.executor;
 
 import org.junit.Test;
 

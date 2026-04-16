@@ -1,4 +1,4 @@
-package com.wx.study.strategy;
+package com.wx.study.patterns.behavioral.strategy;
 
 public class FlyWithWings implements FlyBehavior {
 	public void fly() {

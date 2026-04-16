@@ -1,4 +1,4 @@
-package com.wx.study.adapter;
+package com.wx.study.patterns.structural.adapter;
 
 /**
  * 首先，需要实现想转换的接口

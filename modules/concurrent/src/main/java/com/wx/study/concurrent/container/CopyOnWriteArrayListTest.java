@@ -1,4 +1,4 @@
-package com.wx.study.container;
+package com.wx.study.concurrent.container;
 
 import java.util.Iterator;
 import java.util.concurrent.CopyOnWriteArrayList;

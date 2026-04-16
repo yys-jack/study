@@ -1,4 +1,4 @@
-package com.wx.study.interview.A1B2C3;
+package com.wx.study.concurrent.interview.A1B2C3;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
