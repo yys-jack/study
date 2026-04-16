@@ -1,0 +1,9 @@
+plugins {
+    id "java"
+}
+
+dependencies {
+    implementation project(':modules:core')
+    implementation 'io.netty:netty-all:4.1.100.Final'
+    implementation 'junit:junit:4.13.2'
+}
