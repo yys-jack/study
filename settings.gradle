@@ -1,2 +1,13 @@
 rootProject.name = 'study'
+
+// 已有模块
 include ':realtime'
+
+// 新增模块
+include ':modules:core'
+include ':modules:concurrent'
+include ':modules:patterns'
+include ':modules:io'
+include ':modules:algorithm'
+include ':modules:framework'
+include ':modules:demo'
