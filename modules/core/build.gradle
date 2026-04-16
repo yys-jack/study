@@ -1,0 +1,4 @@
+dependencies {
+    implementation 'org.openjdk.jol:jol-core:0.17'
+    implementation 'cglib:cglib:3.3.0'
+}
