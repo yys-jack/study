@@ -1,4 +1,4 @@
-package com.wx.study.core.proxy.cglib;
+package com.wx.study.core.reflection.proxy.cglib;
 
 import net.sf.cglib.proxy.Enhancer;
 

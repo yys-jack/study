@@ -1,7 +1,7 @@
-package com.wx.study.framework.evaluator;
+package com.wx.study.framework.priority.evaluator;
 
-import com.wx.study.framework.message.Message;
-import com.wx.study.framework.task.Task;
+import com.wx.study.framework.priority.message.Message;
+import com.wx.study.framework.priority.task.Task;
 
 import java.util.Calendar;
 import java.util.Date;

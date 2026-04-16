@@ -1,7 +1,7 @@
-package com.wx.study.core.proxy.staticproxy;
+package com.wx.study.core.reflection.proxy.staticproxy;
 
-import com.wx.study.core.proxy.SmsService;
-import com.wx.study.core.proxy.SmsServiceImpl;
+import com.wx.study.core.reflection.proxy.SmsService;
+import com.wx.study.core.reflection.proxy.SmsServiceImpl;
 
 public class SmsProxy implements SmsService {
     private final SmsService smsService;

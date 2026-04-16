@@ -1,4 +1,4 @@
-package com.wx.study.sort;
+package com.wx.study.algorithm.sort;
 
 /**
  * 快排

@@ -1,4 +1,4 @@
-package com.wx.study.search;
+package com.wx.study.algorithm.search;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.wx.study.core.proxy;
+package com.wx.study.core.reflection.proxy;
 
 public class SmsServiceImpl implements SmsService {
     @Override

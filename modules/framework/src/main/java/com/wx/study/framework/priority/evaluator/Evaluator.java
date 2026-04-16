@@ -1,4 +1,4 @@
-package com.wx.study.framework.evaluator;
+package com.wx.study.framework.priority.evaluator;
 
 import java.util.Queue;
 

@@ -1,6 +1,6 @@
-package com.wx.study.framework.task;
+package com.wx.study.framework.priority.task;
 
-import com.wx.study.framework.message.Message;
+import com.wx.study.framework.priority.message.Message;
 
 public interface Task {
     Message getMessage();

@@ -1,9 +1,9 @@
-package com.wx.priority;
+package com.wx.study.framework.priority;
 
-import com.wx.study.framework.evaluator.DefaultEvaluator;
-import com.wx.study.framework.evaluator.Evaluator;
-import com.wx.study.framework.evaluator.EvaluatorService;
-import com.wx.study.framework.task.Task;
+import com.wx.study.framework.priority.evaluator.DefaultEvaluator;
+import com.wx.study.framework.priority.evaluator.Evaluator;
+import com.wx.study.framework.priority.evaluator.EvaluatorService;
+import com.wx.study.framework.priority.task.Task;
 
 import java.util.Calendar;
 import java.util.Queue;

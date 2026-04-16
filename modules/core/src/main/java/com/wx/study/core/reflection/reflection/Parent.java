@@ -1,6 +1,6 @@
-package com.wx.study.core.reflection;
+package com.wx.study.core.reflection.reflection;
 
-import com.wx.study.core.reflection.annotation.Idempotent;
+import com.wx.study.core.reflection.reflection.annotation.Idempotent;
 import lombok.Setter;
 
 /**

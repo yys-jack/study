@@ -1,4 +1,4 @@
-package com.wx.study.framework.message;
+package com.wx.study.framework.priority.message;
 
 public class TcpIpMessage {
     private Message message;

@@ -1,4 +1,4 @@
-package com.wx.study.file;
+package com.wx.study.io.file;
 
 import java.io.File;
 import java.io.IOException;

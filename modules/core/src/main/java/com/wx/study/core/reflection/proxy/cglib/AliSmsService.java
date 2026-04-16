@@ -1,4 +1,4 @@
-package com.wx.study.core.proxy.cglib;
+package com.wx.study.core.reflection.proxy.cglib;
 
 public class AliSmsService {
     public String send(String message) {

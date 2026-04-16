@@ -1,4 +1,4 @@
-package com.wx.study.string;
+package com.wx.study.algorithm.string;
 
 public class Commons {
     /**

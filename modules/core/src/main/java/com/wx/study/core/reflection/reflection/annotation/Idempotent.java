@@ -1,4 +1,4 @@
-package com.wx.study.core.reflection.annotation;
+package com.wx.study.core.reflection.reflection.annotation;
 
 import java.lang.annotation.*;
 
